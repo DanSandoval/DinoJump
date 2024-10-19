@@ -18,7 +18,7 @@ class Dinosaur:
         self.jump_start_time = 0
         self.max_hold_time = 1000  # milliseconds
         self.min_hold_time = 100   # milliseconds
-        self.max_jump_power = 25   # Adjust as needed
+        self.max_jump_power = 15   # Adjust as needed
 
     def handle_input(self, event, current_time):
         if event.type == pygame.KEYDOWN:
